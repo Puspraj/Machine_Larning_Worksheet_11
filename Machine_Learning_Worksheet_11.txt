@@ -1,0 +1,68 @@
+Question Number, Correct Option, Answer
+
+1> c, may or may not increase
+
+2> b, SST=SSR + SSE
+
+3> c, difference between the actual value and mean of dependent variable.
+
+4> c, By its slope
+
+5> a, must also be equal to 1
+
+6> d, All of the above
+
+7> b, f-statistics
+
+8> c, Ridge
+
+ More than one Answer:
+
+9> c,d
+
+10> a,b
+
+11> a,b,d
+
+ Subjective Answer:
+
+12>Answer:- R-square shows how well terms (data points) fit a curve or line. Adjusted R-squared also
+            indicates how well terms fit a curve or line, but adjusts for the number of terms in a 
+            model. If we add more useful variables, adusted r-squared will increase. Adjusted R-squared
+            will always be less than or equal to R-square.
+
+13>Answer:- In Machine learning, cost functions are used to estimated how badly models are performing. 
+            IN simple way, a cost function is a measure of how wrong the model is in terms of its 
+            ability to estimate the relationship between x and y. 
+
+            This is typically expressed as a difference or distance between the predicted value and the 
+            actual value. The cost function can be estimated by iteratively running the model to compare 
+            estimated prediction against target variable.
+
+14>Answer:- SST:- Sum of squares total is the squaed differences between the observed dipendent variable 
+                  and its mean.
+           
+            SSR:- Sum of squares regression is the sum of the difference between the predicted value and 
+                  the mean of the dependent variable. 
+
+            SSE:- Sum of squares error is the difference between the observed value and the predictd value.
+
+15>Answer:- Various evaluation metrics of linear regression is MSE, MAE, R-squeared, RMSE
+
+           Mean Squared Error(MSE):- The most common metric for regression tasks is MSE. It has a convex shape.
+                                     It is the average of the squared difference between the predicted and actual
+                                     value. Since it is defferentiable and has a convex shape, it is easier to 
+                                     optimize.
+
+           Mean Absolute Error(MAE):- This is simply the average of the absolute difference between the target value 
+                                      and the value predicted by the model. Not preferred in cases where outliers are
+                                      prominent.
+
+           R-Squared:- This metric represents the part of the variance of the dependent variable explained by the 
+                       independent variables of the model. It measures the strength of the relationship between 
+                       your model and the dependent variable.
+
+           Root mean Squared Error(RMSE):- This is the square root of the average of the squared difference of the 
+                                           predicted and actual value. R-squared error is better than RMSE. This is
+                                           because R-squared is a relative measured while RMSE is an absolute measure
+                                           of fit.
